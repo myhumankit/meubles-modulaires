@@ -31,9 +31,124 @@
         "contributors": [
             {
                 "full_name": "Julien Lebunetel",
+                "role": "Fabmanager référent",
                 "email": "julien@myhumankit.org",
-                "github_username": "jlebunetel",
-                "role": "Fabmanager référent"
+                "github_username": "jlebunetel"
+            }
+        ],
+        "status": "draft",
+        "steps": [
+            {
+                "title": "Découper les planches d'OSB 3",
+                "duration": 3600,
+                "content": "",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "osb-3-18-mm",
+                            "quantity": 1.93,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "file": {
+                            "name": "plan de montage",
+                            "url": "models/Meubles_modulaires_0.2.0_2.pdf"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Assembler les planches",
+                "duration": 1800,
+                "content": "",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "vis_FZ_VB3.5x45x30",
+                            "quantity": 48,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-fasteners"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "perceuse-visseuse-sans-fil",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Monter les roulettes",
+                "duration": 1800,
+                "content": "",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "roulette-pivotante-a-platine-diam-75-mm",
+                            "quantity": 4,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "vis_RLS_M6x25",
+                            "quantity": 16,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-fasteners"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Fixer les supports de tirroirs",
+                "duration": 900,
+                "content": "",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "corniere-alu-40x40x2",
+                            "quantity": 2,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Ajouter les tirroirs",
+                "duration": 300,
+                "content": "",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "bac-europe-40x30x12",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bac-europe-60x40x12",
+                            "quantity": 3,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bac-europe-60x40x17",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ]
             }
         ]
     }
