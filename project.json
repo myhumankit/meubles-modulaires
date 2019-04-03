@@ -44,17 +44,45 @@
                 "content": "",
                 "inputs": [
                     {
-                        "component": {
-                            "slug": "osb-3-18-mm",
-                            "quantity": 1.93,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    },
-                    {
                         "file": {
                             "name": "plan de montage",
                             "url": "models/Meubles_modulaires_0.2.0_2.pdf"
+                        }
+                    },
+                    {
+                        "sheet": {
+                            "quantity": 2,
+                            "material": "OSB 3",
+                            "thickness": 18,
+                            "length": 764,
+                            "width": 650
+                        }
+                    },
+                    {
+                        "sheet": {
+                            "quantity": 2,
+                            "material": "OSB 3",
+                            "thickness": 18,
+                            "length": 650,
+                            "width": 450
+                        }
+                    },
+                    {
+                        "sheet": {
+                            "quantity": 1,
+                            "material": "OSB 3",
+                            "thickness": 18,
+                            "length": 650,
+                            "width": 414
+                        }
+                    },
+                    {
+                        "sheet": {
+                            "quantity": 2,
+                            "material": "OSB 3",
+                            "thickness": 18,
+                            "length": 414,
+                            "width": 100
                         }
                     }
                 ]
@@ -110,11 +138,15 @@
                 "content": "",
                 "inputs": [
                     {
-                        "component": {
-                            "slug": "corniere-alu-40x40x2",
-                            "quantity": 2,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
+                        "profile": {
+                            "quantity": 4,
+                            "material": "aluminum",
+                            "length": 500,
+                            "section": {
+                                "type": "equal_leg_angle",
+                                "leg_length": 40,
+                                "thickness": 2
+                            }
                         }
                     }
                 ]
