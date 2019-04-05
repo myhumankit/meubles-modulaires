@@ -44,12 +44,6 @@
                 "content": "",
                 "inputs": [
                     {
-                        "file": {
-                            "name": "plan de montage",
-                            "url": "models/Meubles_modulaires_0.2.0_2.pdf"
-                        }
-                    },
-                    {
                         "sheet": {
                             "quantity": 2,
                             "material": "OSB 3",
@@ -93,18 +87,29 @@
                 "content": "",
                 "inputs": [
                     {
-                        "component": {
-                            "slug": "vis_FZ_VB3.5x45x30",
-                            "quantity": 48,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-fasteners"
-                        }
-                    },
-                    {
                         "tool": {
                             "slug": "perceuse-visseuse-sans-fil",
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 48,
+                            "material": "stainless steel",
+                            "head": "F",
+                            "head_option": "",
+                            "driving": "Z",
+                            "threading": "VB",
+                            "diameter": 3.5,
+                            "length": 45,
+                            "threaded_length": 30
+                        }
+                    },
+                    {
+                        "file": {
+                            "name": "plan de montage",
+                            "url": "models/Meubles_modulaires_0.2.0_2.pdf"
                         }
                     }
                 ]
@@ -123,11 +128,15 @@
                         }
                     },
                     {
-                        "component": {
-                            "slug": "vis_RLS_M6x25",
+                        "screw": {
                             "quantity": 16,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-fasteners"
+                            "material": "stainless steel",
+                            "head": "RL",
+                            "head_option": "",
+                            "driving": "S",
+                            "threading": "M",
+                            "diameter": 6,
+                            "length": 25
                         }
                     }
                 ]
